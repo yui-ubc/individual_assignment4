@@ -5,15 +5,16 @@ format:
     html:
         toc: true
         number-sections: true
+        embed-resources: true
     pdf:
         toc: true
         number-sections: true
 bibliography: references.bib
 editor: source
 ---
-format:
+<!-- format:
   html:
-    embed-resources: true
+    embed-resources: true -->
 
 ```{r}
 library(tidyverse)
